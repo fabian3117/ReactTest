@@ -1,0 +1,33 @@
+
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.contenedor-vertical {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.contenedor-horizontal {
+  display: flex;
+  flex-direction: row;
+}
+.contenedor-horizontal > div {
+  margin-right: 10px; /* Agrega margen a la derecha de cada elemento */
+}
+
+/* Para evitar margen en el último elemento, puedes hacer esto: */
+.contenedor-horizontal > div:last-child {
+  margin-right: 0; /* Elimina el margen del último elemento */
+}

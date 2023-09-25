@@ -1,0 +1,58 @@
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px; /* Espacio entre las tarjetas */
+  }
+  
+  .card {
+    flex: 0 0 calc(25% - 16px); /* Establece un ancho fijo para las tarjetas y considera el espacio entre ellas */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    background-color: #fff;
+    /* Puedes agregar otros estilos aquí */
+  }
+  
+  .card-image {
+    width: 5epm;
+    height: 5epm;
+  }
+  
+  
+  
+  .card-title {
+    font-size: 1.5rem;
+    margin: 8px 0;
+  }
+  
+  .card-description {
+    font-size: 1rem;
+    color: #777;
+  }
+  .ButtonPersonalizado{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+
+  }
+
+  
+  .ButtonPersonalizado:hover {
+    background-color: #1976D2; /* Color de fondo al pasar el mouse */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra al pasar el mouse */
+  }
+  .icon-container {
+    display: flex; /* Establece el contenedor como un flex container */
+    justify-content: space-between; /* Distribuye los elementos horizontalmente con espacio entre ellos */
+    align-items: center; /* Centra verticalmente los elementos */
+    padding: 10px; /* Agrega un espacio alrededor de los iconos (ajusta según tus preferencias) */
+  }
+  
