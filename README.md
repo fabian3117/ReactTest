@@ -10,7 +10,7 @@ En este momento ahi una version del proyecto funcionando en servidor.
 
 Aplicacion corriendo sobre  `Azure Web Aplication`
 
->  [`Puedes visualizarlo desde aquí`](https://proyectmateriasutnelectronica.azurewebsites.net/)
+>  [`Puedes visualizarlo desde aquí`](https://portafoliogonzalezfederico.azurewebsites.net/)
 
 > `Estamos mejorando progresivamente la aplicacion aun esta en desarrollo`.
 Deployada utilizano #FTPS
